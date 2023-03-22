@@ -1,0 +1,43 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Automation Suite" verbose="1" thread-count="1" parallel="tests">
+    <test name="Test" parallel="tests">
+        <classes>
+            <class name="HomePage_Tests.UserRegistration_test"/>
+        </classes>
+    </test>
+    <test name="Test_1" parallel="tests">
+        <classes>
+            <class name="SignupLoginPage_Tests.RegisternewUser_test"/>
+        </classes>
+    </test>
+    <test name="Test_2" parallel="tests">
+        <classes>
+            <class name="EnterAccInfoPage_Tests.EnterInfo_test"/>
+        </classes>
+    </test>
+    <test name="Test_3" parallel="tests">
+        <classes>
+            <class name="AccCreationPage_Tests.Acccreation_test"/>
+        </classes>
+    </test>
+    <test name="Test_4" parallel="tests">
+        <classes>
+            <class name="SignupLoginPage_Tests.LoginUnexistinguser_test"/>
+        </classes>
+    </test>
+    <test name="Test_5" parallel="tests">
+        <classes>
+            <class name="SignupLoginPage_Tests.Registeruserwithexistingemail_test"/>
+        </classes>
+    </test>
+    <test name="Test_6" parallel="tests">
+        <classes>
+            <class name="Loginpage_Tests.LogedinUser_test"/>
+        </classes>
+    </test>
+    <test name="Test_7" parallel="tests">
+        <classes>
+            <class name="Loginpage_Tests.addtocart_test"/>
+        </classes>
+    </test>
+</suite>
