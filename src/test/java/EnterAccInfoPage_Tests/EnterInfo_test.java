@@ -45,6 +45,7 @@ public class EnterInfo_test extends Signuploginpage_starter {
         Assert.assertEquals(EnterAccouninfo_page.months.getText(),monthvalue,"Month check");
         Enteraccinfo_steps.Yearinput();
         Assert.assertEquals(EnterAccouninfo_page.years.getValue(),yearsnum,"Month check");
+        Enteraccinfo_steps.scrolldown();
         Enteraccinfo_steps.Optininput();
         Assert.assertTrue(EnterAccouninfo_page.optin.isSelected(),"Optin box check");
         Enteraccinfo_steps.Firstnameinput();

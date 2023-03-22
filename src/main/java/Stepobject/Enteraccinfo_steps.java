@@ -33,6 +33,11 @@ public class Enteraccinfo_steps extends EnterAccouninfo_page {
         years.sendKeys(yearsnum);
         return this;
     }
+    @Step("Scroll into view")
+    public Enteraccinfo_steps scrolldown() {
+        optin.scrollIntoView(true);;
+        return this;
+    }
     @Step("Fil the optin checkbox")
     public Enteraccinfo_steps Optininput() {
         optin.click();

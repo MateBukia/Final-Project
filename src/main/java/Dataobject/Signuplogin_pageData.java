@@ -5,7 +5,7 @@ public interface Signuplogin_pageData  {
             myname = "Mate Bukia",
             myincorrectemail = "bukmate@gmail.com",
             mypassword = "ThisisFinal123@",
-            myemail = "448859dsfsd@gmail.com",
+            myemail = "448940rkfsdlvndfsd@gmail.com",
             myincorrectpassword = "LSDASKD##";
 
 
